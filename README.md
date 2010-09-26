@@ -3,8 +3,8 @@ Form Testing with ExtJS
 
 This is a simple example that demonstrates two things:
 
-   # Using [Sinatra][1] to handle simple services for testing
-   # Using [ExtJS][2] and [Ext Designer][3] to handle and create Forms.
+   1. Using [Sinatra][1] to handle simple services for testing
+   2. Using [ExtJS][2] and [Ext Designer][3] to handle and create Forms.
 
 I had a heck of a time trying to map many of the Ext JS examples over to how their Designer
 creates it's own UI and event handler .js files.  Since most examples showed how to create
