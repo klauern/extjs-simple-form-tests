@@ -1,0 +1,79 @@
+{
+	"name": "form_tester.xds",
+	"projectId": "9FA27F24-4FB3-4A20-9D8A-A740469A1750",
+	"settings": {
+		"urlPrefix": "http://localhost/",
+		"directAPI": "",
+		"spacesToIndent": "4",
+		"codeGenFormat": "Class",
+		"extPath": "http://extjs.cachefly.net/ext-3.2.1/",
+		"exportPath": ".",
+		"lineEnding": "CRLF"
+	},
+	"xdsVersion": "xds-1.0.2.14",
+	"components": [
+		{
+			"id": "MyForm",
+			"cid": "form",
+			"jsClass": "MyForm",
+			"snapToGrid": 10,
+			"userConfig": {
+				"title": "My Form",
+				"width": 400,
+				"height": 250,
+				"padding": 10,
+				"labelAlign": "top",
+				"url": "xml/form",
+				"method": "POST",
+				"standardSubmit": true
+			},
+			"cn": [
+				{
+					"id": "MyDateField",
+					"cid": "datefield",
+					"jsClass": "MyDateField",
+					"snapToGrid": 10,
+					"userConfig": {
+						"fieldLabel": "Label",
+						"anchor": "100%",
+						"id": "date_field"
+					}
+				},
+				{
+					"id": "MySliderField",
+					"cid": "sliderfield",
+					"jsClass": "MySliderField",
+					"snapToGrid": 10,
+					"userConfig": {
+						"value": 60,
+						"fieldLabel": "Label",
+						"anchor": "100%",
+						"id": "slider_field"
+					}
+				},
+				{
+					"id": "MyTextField",
+					"cid": "textfield",
+					"jsClass": "MyTextField",
+					"snapToGrid": 10,
+					"userConfig": {
+						"fieldLabel": "Label",
+						"anchor": "100%",
+						"id": "a_text_field"
+					}
+				},
+				{
+					"id": "MyButton",
+					"cid": "button",
+					"jsClass": "MyButton",
+					"snapToGrid": 10,
+					"userConfig": {
+						"text": "MyButton",
+						"autoRef": "submit"
+					}
+				}
+			]
+		}
+	],
+	"stores": []
+}
